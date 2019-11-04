@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 
-long factoriel(n)
+long factoriel(int n)
 {
     if (n == 1)
         return 1;
     return n * factoriel(n - 1);
 }
 
-long fact(n)
+long fact(int n)
 {
     long fa = 1;
     for (int i = 1; i <= n; ++i)
