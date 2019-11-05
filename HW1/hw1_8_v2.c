@@ -16,5 +16,5 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    printf(c(2*n,n));
+    printf("%ld",c(2*n,n));
 }
